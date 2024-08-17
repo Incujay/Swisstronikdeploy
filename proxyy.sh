@@ -8,6 +8,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 clear
 
 echo "Installing dependencies..."
+
 npm install --save-dev hardhat
 npm install dotenv
 npm install @swisstronik/utils
